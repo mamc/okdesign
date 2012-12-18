@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="cameroon, interior, ok design,">
+	<meta name="description" content="modern design for cameroon">
+    <link rel="stylesheet" type="text/css" href="frontpagecss.css" />
+	<!-- linking menu -->
+	<script src="http://jqueryjs.googlecode.com/files/jquery-1.3.js" type="text/javascript"></script>
+	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="animated-menu.js" type="text/javascript"></script>
+	<!--  -->
+	
+    <title>OK Design Cameroon</title>
+
+	<script type="text/javascript">
+            <!-->
+
+            var image1=new Image()
+            image1.src="images/acapulco.jpg"
+            var image2=new Image()
+            image2.src="images/bambam.jpg"
+            //-->
+           </script>
+</head>
+
+<body>
+
+<div id="container">
+
+  <!-- starting menu -->
+   <div id="menubars">
+      <ul>
+		<li class="frontpage">
+			<a class="active1" href="file:///C:/Users/Martyna/Desktop/school%20things/2%20semester/5%20exam/coding/frontpage.html" title="Home" id="front">HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/>HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/></a>			
+		</li>
+		<li class="designpage">
+			<a class="active2" href="file:///C:/Users/Martyna/Desktop/school%20things/2%20semester/5%20exam/coding/designpage.html" title="See products" id="design">HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/>HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/></a>
+		</li>
+		<li class="aboutpage">
+			<a class="active3" href="file:///C:/Users/Martyna/Desktop/school%20things/2%20semester/5%20exam/coding/aboutpage.html" title="Read about" id="about">HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/>HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/></a>
+		</li>
+		<li class="contactpage">
+			<a class="active4" href="file:///C:/Users/Martyna/Desktop/school%20things/2%20semester/5%20exam/coding/contactpage.html" title="Contact us" id="contact">HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/>HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/></a>
+		</li>
+		<li class="okdesignpage">
+			<a class="active5" href="http://okdesign.dk/" title="Go to original website" id="okdesign">HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/>HHHHHHH<br/>HHHHHHH<br/>HHHHHHHH<br/></a>
+		</li>
+	</ul>
+   </div>
+  <!-- closing menu -->
+
+   <div id="content">
+	    <div id="Slideshow">
+             <img src="images/acapulco.jpg" name="Slidehow" width="1024" height="541" alt="#" />
+          <script type="text/javascript">
+             <!--
+             var step=1
+             function slideit() {
+             document.images.slide.src=eval ("image"+step+".src")
+             if(step<2)
+             step++
+             else
+             step=1
+             setTimeout("slideit()",2500)
+             }
+             slideit()
+             //-->
+          </script>        
+        </div>		 
+   </div>
+
+     <!-- starting footer -->
+   <div id="footer">
+            <p class="para4">All rights reserved by OK Design and by MAMC design company
+            </p>
+			<div id="dots">
+             <img src="images/dots.png" alt="dots"/>        
+            </div>
+   </div>
+        <!-- closing footer -->
+</div>
+</body>
+</html>
